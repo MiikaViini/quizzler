@@ -12,7 +12,7 @@ class QuizIF:
         self.window.config(padx=20, pady=20, background=THEME_COLOR)
         self.score = 0
 
-        self.canvas = Canvas(width=300, height=250, highlightthickness=0)
+        self.canvas = Canvas(width=300, height=250, highlightthickness=0, bg="white")
         self.canvas.grid(column=0, row=1, columnspan=2, pady=50)
         self.question_text = self.canvas.create_text(150, 125,
                                                      text="jee",
