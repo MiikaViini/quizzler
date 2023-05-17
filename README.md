@@ -1,4 +1,6 @@
-# quizzler
+![quizzler](https://github.com/MiikaViini/quizzler/blob/master/quizzler.png?raw=true)
+
+# Quizzler
 Quiz game from Python Course
 #
 
